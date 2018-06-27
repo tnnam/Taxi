@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C133F47716A94CC30C9D6B1 /* Pods_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C79C5D8E0DAAD9C329361EA /* Pods_Taxi.framework */; };
+		847C343B20E12CA5002C17F2 /* AutocompleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C343A20E12CA4002C17F2 /* AutocompleteController.swift */; };
+		84D6A9E920E34D70009E3604 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6A9E820E34D70009E3604 /* Location.swift */; };
 		84E1F7B320E0D39300AF73E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1F7B220E0D39300AF73E9 /* AppDelegate.swift */; };
 		84E1F7B520E0D39300AF73E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1F7B420E0D39300AF73E9 /* ViewController.swift */; };
 		84E1F7B820E0D39300AF73E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1F7B620E0D39300AF73E9 /* Main.storyboard */; };
 		84E1F7BA20E0D39600AF73E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1F7B920E0D39600AF73E9 /* Assets.xcassets */; };
 		84E1F7BD20E0D39600AF73E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1F7BB20E0D39600AF73E9 /* LaunchScreen.storyboard */; };
+		84E1F7C520E0DC3F00AF73E9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1F7C420E0DC3F00AF73E9 /* MapViewController.swift */; };
+		84E1F7C720E0DFFC00AF73E9 /* Geofencing.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 84E1F7C620E0DFFC00AF73E9 /* Geofencing.gpx */; };
+		84E1F7C920E0E2C400AF73E9 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1F7C820E0E2C400AF73E9 /* PlacesViewController.swift */; };
+		84E1F7CB20E0F48700AF73E9 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1F7CA20E0F48700AF73E9 /* SlideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C79C5D8E0DAAD9C329361EA /* Pods_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E5DB8770BEB3C5E83FB570 /* Pods-Taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Taxi/Pods-Taxi.release.xcconfig"; sourceTree = "<group>"; };
+		847C343A20E12CA4002C17F2 /* AutocompleteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutocompleteController.swift; sourceTree = "<group>"; };
+		84D6A9E820E34D70009E3604 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		84E1F7AF20E0D39300AF73E9 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E1F7B220E0D39300AF73E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E1F7B420E0D39300AF73E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		84E1F7B920E0D39600AF73E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E1F7BC20E0D39600AF73E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E1F7BE20E0D39600AF73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E1F7C420E0DC3F00AF73E9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		84E1F7C620E0DFFC00AF73E9 /* Geofencing.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Geofencing.gpx; sourceTree = "<group>"; };
+		84E1F7C820E0E2C400AF73E9 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		84E1F7CA20E0F48700AF73E9 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		8EA2DE14AC4C9515CE7C7C63 /* Pods-Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Taxi/Pods-Taxi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C133F47716A94CC30C9D6B1 /* Pods_Taxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				84E1F7B120E0D39300AF73E9 /* Taxi */,
 				84E1F7B020E0D39300AF73E9 /* Products */,
+				CA22CF4F1C290D2DF418E4B0 /* Pods */,
+				B6F77B4774E0C45B981D6039 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +75,35 @@
 			children = (
 				84E1F7B220E0D39300AF73E9 /* AppDelegate.swift */,
 				84E1F7B420E0D39300AF73E9 /* ViewController.swift */,
+				84E1F7C420E0DC3F00AF73E9 /* MapViewController.swift */,
+				84D6A9E820E34D70009E3604 /* Location.swift */,
+				84E1F7C820E0E2C400AF73E9 /* PlacesViewController.swift */,
+				847C343A20E12CA4002C17F2 /* AutocompleteController.swift */,
 				84E1F7B620E0D39300AF73E9 /* Main.storyboard */,
+				84E1F7CA20E0F48700AF73E9 /* SlideViewController.swift */,
 				84E1F7B920E0D39600AF73E9 /* Assets.xcassets */,
 				84E1F7BB20E0D39600AF73E9 /* LaunchScreen.storyboard */,
 				84E1F7BE20E0D39600AF73E9 /* Info.plist */,
+				84E1F7C620E0DFFC00AF73E9 /* Geofencing.gpx */,
 			);
 			path = Taxi;
+			sourceTree = "<group>";
+		};
+		B6F77B4774E0C45B981D6039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C79C5D8E0DAAD9C329361EA /* Pods_Taxi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA22CF4F1C290D2DF418E4B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA2DE14AC4C9515CE7C7C63 /* Pods-Taxi.debug.xcconfig */,
+				81E5DB8770BEB3C5E83FB570 /* Pods-Taxi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E1F7C120E0D39600AF73E9 /* Build configuration list for PBXNativeTarget "Taxi" */;
 			buildPhases = (
+				2B10DB52F50BB41E059D9E33 /* [CP] Check Pods Manifest.lock */,
 				84E1F7AB20E0D39300AF73E9 /* Sources */,
 				84E1F7AC20E0D39300AF73E9 /* Frameworks */,
 				84E1F7AD20E0D39300AF73E9 /* Resources */,
+				AB7D6EA97B1B02EC160FDDFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E1F7C720E0DFFC00AF73E9 /* Geofencing.gpx in Resources */,
 				84E1F7BD20E0D39600AF73E9 /* LaunchScreen.storyboard in Resources */,
 				84E1F7BA20E0D39600AF73E9 /* Assets.xcassets in Resources */,
 				84E1F7B820E0D39300AF73E9 /* Main.storyboard in Resources */,
@@ -130,13 +175,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B10DB52F50BB41E059D9E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7D6EA97B1B02EC160FDDFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Taxi/Pods-Taxi-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Taxi/Pods-Taxi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E1F7AB20E0D39300AF73E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E1F7C920E0E2C400AF73E9 /* PlacesViewController.swift in Sources */,
+				847C343B20E12CA5002C17F2 /* AutocompleteController.swift in Sources */,
+				84E1F7CB20E0F48700AF73E9 /* SlideViewController.swift in Sources */,
 				84E1F7B520E0D39300AF73E9 /* ViewController.swift in Sources */,
+				84E1F7C520E0DC3F00AF73E9 /* MapViewController.swift in Sources */,
 				84E1F7B320E0D39300AF73E9 /* AppDelegate.swift in Sources */,
+				84D6A9E920E34D70009E3604 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +369,17 @@
 		};
 		84E1F7C220E0D39600AF73E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA2DE14AC4C9515CE7C7C63 /* Pods-Taxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45VTZRG97N;
 				INFOPLIST_FILE = Taxi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Taxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example1.Taxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +388,17 @@
 		};
 		84E1F7C320E0D39600AF73E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E5DB8770BEB3C5E83FB570 /* Pods-Taxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45VTZRG97N;
 				INFOPLIST_FILE = Taxi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Taxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example1.Taxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
